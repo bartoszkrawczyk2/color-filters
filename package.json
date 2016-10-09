@@ -2,7 +2,7 @@
   "name": "color-filters",
   "version": "0.0.3",
   "description": "Small lib for creating instagram-like filters.",
-  "main": "src/index.js",
+  "main": "lib/index.js",
   "scripts": {
     "compile": "babel --presets es2015,stage-0 -d lib/ src/",
     "prepublish": "npm run compile",
