@@ -1,0 +1,29 @@
+{
+  "name": "color-filters",
+  "version": "0.0.2",
+  "description": "Small lib for creating instagram-like filters.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bartoszkrawczyk2/color-filters.git"
+  },
+  "author": "Bartosz Krawczyk",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bartoszkrawczyk2/color-filters/issues"
+  },
+  "homepage": "https://github.com/bartoszkrawczyk2/color-filters#readme",
+  "devDependencies": {
+    "babel-cli": "^6.11.4",
+    "babel-preset-es2015": "^6.13.1"
+  },
+  "dependencies": {
+    "blueimp-canvas-to-blob": "^3.4.0",
+    "cubic-spline": "^1.0.4",
+    "hsv-rgb": "^1.0.0",
+    "rgb-hsv": "^1.0.0"
+  }
+}
